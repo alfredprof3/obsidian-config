@@ -16,6 +16,7 @@
 !community-plugins.json
 !core-plugins.json
 !hotkeys.json
+!README.md
 
 # 6. Un-ignore required directories and all their contents
 !snippets/**
