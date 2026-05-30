@@ -1,0 +1,27 @@
+{
+  "cssTheme": "Minimal",
+  "theme": "obsidian",
+  "enabledCssSnippets": [
+    "Cornell Notes tedp",
+    "Cornell Notes TfTHacker",
+    "Author Callout",
+    "Canvas Candy",
+    "Dashboard",
+    "Dashboard-ReadLineLength",
+    "Fade Emoji Tasks",
+    "Folder Structure Callout",
+    "Hide Property CSSClasses",
+    "Label Callout",
+    "MCL Gallery Cards",
+    "MCL Multi Column",
+    "MCL Wide Views",
+    "Outlined Callout",
+    "Sidenote Auto-Adjust Module",
+    "Sidenote using Tufte-Sytle using Sidenote Auto-Adjust Module",
+    "Stickynote in Callout-Style using Sidenote-Auto-Adjust-Module",
+    "Timeline - harr",
+    "Timeline FireIsGood"
+  ],
+  "accentColor": "",
+  "showRibbon": false
+}
