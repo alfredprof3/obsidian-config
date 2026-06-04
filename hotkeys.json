@@ -74,20 +74,20 @@
     }
   ],
   "keyshots:reopen-current-note": [],
-  "webviewer:open": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "W"
-    }
-  ],
   "app:reload": [
     {
       "modifiers": [
         "Ctrl"
       ],
       "key": "R"
+    }
+  ],
+  "webviewer:open": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "W"
     }
   ]
 }
