@@ -9,5 +9,7 @@
   "obsidian-hider",
   "notebook-navigator",
   "obsidian-git",
-  "remotely-save"
+  "remotely-save",
+  "vscode-editor",
+  "tag-navigator-v0.2.0"
 ]
