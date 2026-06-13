@@ -813,7 +813,7 @@ class TagTitle extends SvelteComponent {
 function add_css() {
 	var style = element("style");
 	style.id = "svelte-1597r1-style";
-	style.textContent = "p.svelte-1597r1.svelte-1597r1{margin:0}.path.svelte-1597r1.svelte-1597r1{display:flex;align-items:flex-end}.path.svelte-1597r1>.svelte-1597r1{margin:0 5px}.muted.svelte-1597r1.svelte-1597r1{opacity:0.5}.strong.svelte-1597r1.svelte-1597r1{font-weight:bold}.small.svelte-1597r1.svelte-1597r1{font-size:12px}.label.svelte-1597r1.svelte-1597r1{white-space:nowrap;margin-right:4px}.flex.svelte-1597r1.svelte-1597r1{display:flex;justify-content:flex-start}.align-bottom.svelte-1597r1.svelte-1597r1{align-items:flex-end}.align-center.svelte-1597r1.svelte-1597r1{align-items:center}.flex-wrap.svelte-1597r1.svelte-1597r1{flex-wrap:wrap}.spacer.svelte-1597r1.svelte-1597r1{width:10px;height:10px}.flex-spacer.svelte-1597r1.svelte-1597r1{flex-grow:1;flex-shrink:0;width:5px}.hscroll.svelte-1597r1.svelte-1597r1{max-width:100%;overflow:auto}.mutedLink.svelte-1597r1.svelte-1597r1{cursor:pointer;opacity:0.5;transition:all 0.2 ease}.mutedLink.svelte-1597r1.svelte-1597r1:hover{opacity:1}.link.svelte-1597r1.svelte-1597r1{cursor:pointer;background:transparent;border-radius:3px;transition:all 0.25s ease;font-size:14px}.link.svelte-1597r1.svelte-1597r1:hover{background:var(--interactive-accent);color:var(--text-on-accent);padding-left:4px}.small.svelte-1597r1.svelte-1597r1{font-size:13px}ul.svelte-1597r1.svelte-1597r1{list-style:none;padding-left:0;margin:0}li.intersection.svelte-1597r1.svelte-1597r1:before{content:\"+\";margin-right:4px;opacity:0.5}li.note.svelte-1597r1.svelte-1597r1:before{content:\"→\";margin-right:4px}.cutoff.svelte-1597r1.svelte-1597r1{max-width:250px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.btn.svelte-1597r1.svelte-1597r1{cursor:pointer;padding:4px 10px;border-radius:100px;border:1px solid var(--interactive-accent);font-weight:bold;font-size:12px;margin-right:10px;transition:all 0.2s ease}.btn.svelte-1597r1.svelte-1597r1:hover,.btn.selected.svelte-1597r1.svelte-1597r1{background:var(--interactive-accent);color:var(--text-on-accent)}";
+	style.textContent = "p.svelte-1597r1.svelte-1597r1{margin:0}.path.svelte-1597r1.svelte-1597r1{display:flex;align-items:flex-end}.path.svelte-1597r1>.svelte-1597r1{margin:0 5px}.muted.svelte-1597r1.svelte-1597r1{opacity:0.5}.strong.svelte-1597r1.svelte-1597r1{font-weight:bold}.small.svelte-1597r1.svelte-1597r1{font-size:12px}.label.svelte-1597r1.svelte-1597r1{white-space:nowrap;margin-right:4px}.flex.svelte-1597r1.svelte-1597r1{display:flex;justify-content:flex-start}.align-bottom.svelte-1597r1.svelte-1597r1{align-items:flex-end}.align-center.svelte-1597r1.svelte-1597r1{align-items:center}.flex-wrap.svelte-1597r1.svelte-1597r1{flex-wrap:wrap}.spacer.svelte-1597r1.svelte-1597r1{width:10px;height:10px}.flex-spacer.svelte-1597r1.svelte-1597r1{flex-grow:1;flex-shrink:0;width:5px}.hscroll.svelte-1597r1.svelte-1597r1{max-width:100%;overflow:visible}.mutedLink.svelte-1597r1.svelte-1597r1{cursor:pointer;opacity:0.5;transition:all 0.2 ease}.mutedLink.svelte-1597r1.svelte-1597r1:hover{opacity:1}.link.svelte-1597r1.svelte-1597r1{cursor:pointer;background:transparent;border-radius:3px;transition:all 0.25s ease;font-size:14px}.link.svelte-1597r1.svelte-1597r1:hover{background:var(--interactive-accent);color:var(--text-on-accent);padding-left:4px}.small.svelte-1597r1.svelte-1597r1{font-size:13px}ul.svelte-1597r1.svelte-1597r1{list-style:none;padding-left:0;margin:0}li.intersection.svelte-1597r1.svelte-1597r1:before{content:\"+\";margin-right:4px;opacity:0.5}li.note.svelte-1597r1.svelte-1597r1:before{content:\"→\";margin-right:4px}.cutoff.svelte-1597r1.svelte-1597r1{max-width:250px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.btn.svelte-1597r1.svelte-1597r1{cursor:pointer;padding:4px 10px;border-radius:100px;border:1px solid var(--interactive-accent);font-weight:bold;font-size:12px;margin-right:10px;margin-bottom:6px;transition:all 0.2s ease}.btn.svelte-1597r1.svelte-1597r1:hover,.btn.selected.svelte-1597r1.svelte-1597r1{background:var(--interactive-accent);color:var(--text-on-accent)}.tag-search.svelte-1597r1{display:block;width:100%;padding:4px 12px;border-radius:100px;border:1px solid var(--background-modifier-border);font-size:12px;margin-bottom:6px;background:var(--background-primary);color:var(--text-normal);outline:none;box-sizing:border-box}.tag-search.svelte-1597r1:focus{border-color:var(--interactive-accent)}.tag-search.svelte-1597r1::placeholder{color:var(--text-muted);opacity:0.7}.tag-toggle.svelte-1597r1{cursor:pointer;background:transparent;border:none;color:var(--text-muted);font-size:12px;padding:0;margin-bottom:10px;display:block;opacity:0.6;transition:opacity 0.2s ease}.tag-toggle.svelte-1597r1:hover{opacity:1;color:var(--text-normal)}";
 	append(document.head, style);
 }
 
@@ -1959,6 +1959,8 @@ function create_fragment(ctx) {
 	let hr0;
 	let t6;
 	let div8;
+	let searchInput;
+	let toggleBtn;
 	let div4;
 	let p1;
 	let t8;
@@ -2043,6 +2045,13 @@ function create_fragment(ctx) {
 			hr0 = element("hr");
 			t6 = space();
 			div8 = element("div");
+			searchInput = element("input");
+			attr(searchInput, "type", "text");
+			attr(searchInput, "placeholder", "Search tags...");
+			attr(searchInput, "class", "tag-search svelte-1597r1");
+			toggleBtn = element("button");
+			toggleBtn.textContent = "▾ Browse all tags";
+			attr(toggleBtn, "class", "tag-toggle svelte-1597r1");
 			div4 = element("div");
 			p1 = element("p");
 			p1.textContent = "Favorite groups:";
@@ -2089,11 +2098,11 @@ function create_fragment(ctx) {
 			attr(div2, "class", "path svelte-1597r1");
 			attr(p1, "class", "small muted label svelte-1597r1");
 			attr(div3, "class", "spacer svelte-1597r1");
-			attr(div4, "class", "flex align-center svelte-1597r1");
+			attr(div4, "class", "flex align-center flex-wrap svelte-1597r1");
 			attr(div5, "class", "spacer svelte-1597r1");
 			attr(p2, "class", "small muted label svelte-1597r1");
 			attr(div6, "class", "spacer svelte-1597r1");
-			attr(div7, "class", "flex align-center svelte-1597r1");
+			attr(div7, "class", "flex align-center flex-wrap svelte-1597r1");
 			attr(div8, "class", "hscroll svelte-1597r1");
 			attr(div9, "style", div9_style_value = "width: " + /*contentWidth*/ ctx[3] + "px; margin: 0 auto;");
 			add_render_callback(() => /*div10_elementresize_handler*/ ctx[19].call(div10));
@@ -2121,6 +2130,55 @@ function create_fragment(ctx) {
 			append(div9, hr0);
 			append(div9, t6);
 			append(div9, div8);
+			append(div8, searchInput);
+			append(div8, toggleBtn);
+
+			// Tags collapsed by default
+			let tagsExpanded = false;
+			div4.style.display = "none";
+			div7.style.display = "none";
+
+			// Search: show matching tags while typing, collapse when cleared
+			searchInput.addEventListener("input", function() {
+				const term = this.value.toLowerCase().trim();
+				if (term) {
+					div4.style.display = "";
+					div7.style.display = "";
+					div8.querySelectorAll(".btn").forEach(function(btn) {
+						btn.style.display = btn.textContent.toLowerCase().includes(term) ? "" : "none";
+					});
+					[div4, div7].forEach(function(row) {
+						const visible = Array.from(row.querySelectorAll(".btn")).some(function(b) { return b.style.display !== "none"; });
+						row.style.display = visible ? "" : "none";
+					});
+				} else {
+					if (!tagsExpanded) {
+						div4.style.display = "none";
+						div7.style.display = "none";
+					} else {
+						div4.style.display = "";
+						div7.style.display = "";
+						div8.querySelectorAll(".btn").forEach(function(btn) { btn.style.display = ""; });
+					}
+				}
+			});
+
+			// Toggle: show or hide all tags
+			toggleBtn.addEventListener("click", function() {
+				tagsExpanded = !tagsExpanded;
+				searchInput.value = "";
+				if (tagsExpanded) {
+					div4.style.display = "";
+					div7.style.display = "";
+					div8.querySelectorAll(".btn").forEach(function(btn) { btn.style.display = ""; });
+					this.textContent = "▴ Hide tags";
+				} else {
+					div4.style.display = "none";
+					div7.style.display = "none";
+					this.textContent = "▾ Browse all tags";
+				}
+			});
+
 			append(div8, div4);
 			append(div4, p1);
 			append(div4, t8);
