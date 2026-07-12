@@ -14,7 +14,7 @@ body {
   --timeline-line-width: 4px;
   --timeline-line-style: solid;
 
-  --timeline-dot-color: var(--color-base-70);
+  --timeline-dot-color: white; /* FIX 2: neutral white dot */
   --timeline-dot-size: 32px;
   --timeline-dot-radius: 100%;
   --timeline-dot-border-color: var(--background-primary);
@@ -47,6 +47,8 @@ body {
     color: var(--timeline-title-color);
     font-size: var(--timeline-title-size);
     margin-top: var(--dot-offset);
+    /* FIX 3: center text on dot — shifts down by (dot_size - text_height) / 2 */
+    transform: translateY(calc(var(--timeline-dot-size) / 2 - 50%));
   }
   .callout-icon {
     order: 2;
@@ -88,12 +90,23 @@ body {
   }
 }
 
-/* Stacking multiple timelines */
+/* FIX 1: Continuous vertical line — remove gap between consecutive items */
+div:has(> [data-callout="timeline-fig"]) {
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
+div:has(> [data-callout="timeline-fig"]) + div:has(> [data-callout="timeline-fig"]) {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+/* Stacking: small indent before the first timeline item */
 div:not(:has(> [data-callout="timeline-fig"])) + div > [data-callout="timeline-fig"] {
   margin-top: var(--p-spacing);
 }
-div:has(> [data-callout="timeline-fig"]) + div:not(> [data-callout="timeline-fig"]) {
-  margin-bottom: 1rem;
+/* Stacking: restore normal spacing after the timeline group ends */
+div:has(> [data-callout="timeline-fig"]) + div:not(:has(> [data-callout="timeline-fig"])) {
+  margin-top: 1rem;
 }
 
 /* Timeline dot colors */
