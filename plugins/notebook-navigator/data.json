@@ -138,6 +138,7 @@
       "search": true,
       "reveal": false,
       "descendants": true,
+      "groupExpansion": false,
       "sort": true,
       "appearance": true,
       "newNote": true
@@ -263,6 +264,7 @@
   "showFilePreview": true,
   "skipHeadingsInPreview": true,
   "skipCodeBlocksInPreview": true,
+  "skipCalloutsInPreview": false,
   "stripHtmlInPreview": true,
   "stripLatexInPreview": true,
   "previewRows": 2,
@@ -302,6 +304,7 @@
   "calendarEnabled": true,
   "calendarPlacement": "right-sidebar",
   "calendarConfirmBeforeCreate": true,
+  "calendarShowHiddenItems": false,
   "calendarLocale": "system-default",
   "calendarWeekendDays": "sat-sun",
   "calendarMonthHeadingFormat": "full",
@@ -502,7 +505,6 @@
   },
   "customVaultName": "",
   "pinnedNotes": {},
-  "collapsedPinnedContexts": {},
   "fileIcons": {},
   "fileColors": {},
   "fileBackgroundColors": {},
@@ -554,7 +556,7 @@
     "#404040",
     "#404040"
   ],
-  "lastShownVersion": "3.2.4",
+  "lastShownVersion": "3.3.0",
   "rootFolderOrder": [],
   "rootTagOrder": [],
   "rootPropertyOrder": []
