@@ -42,5 +42,6 @@
     "Timeline-FireIsGood"
   ],
   "accentColor": "",
-  "showRibbon": true
+  "showRibbon": true,
+  "showViewHeader": true
 }
