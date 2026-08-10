@@ -253,6 +253,7 @@
   "unfinishedTaskBackgroundColor": "#ef000050",
   "unfinishedTaskBackgroundColorDark": "#ef000050",
   "showFileIcons": true,
+  "unfinishedTaskIcon": "compact",
   "useFolderIconForFiles": false,
   "showFilenameMatchIcons": false,
   "fileNameIconMap": {},
@@ -320,6 +321,7 @@
   "calendarMonthHighlights": {},
   "calendarShowWeekNumber": false,
   "calendarShowQuarter": false,
+  "calendarShowOutsideMonthDays": true,
   "calendarShowYearCalendar": true,
   "calendarLeftPlacement": "navigation",
   "calendarWeeksToShow": 1,
@@ -562,7 +564,7 @@
     "#404040",
     "#404040"
   ],
-  "lastShownVersion": "3.3.2",
+  "lastShownVersion": "3.3.3",
   "rootFolderOrder": [],
   "rootTagOrder": [],
   "rootPropertyOrder": []
