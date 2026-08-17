@@ -19,5 +19,7 @@
   "minimal-style@@tag-color@@dark": "#7BDEFF",
   "minimal-style@@code-normal@@dark": "#03C56C",
   "minimal-style@@bold-modifier": 300,
-  "minimal-style@@bold-color@@dark": "#FFFFFF"
+  "minimal-style@@bold-color@@dark": "#FFFFFF",
+  "minimal-style@@callouts-style": "callouts-default",
+  "minimal-style@@blockquote-border-thickness": 1
 }

@@ -6463,7 +6463,7 @@ function makeDataUrl(content, mimeType) {
   return `data:${mimeType};base64,${content}`;
 }
 async function fetchAsDataURL(url, init, process2) {
-  throw Error("fetch call was blocked by AC");
+  const res = await fetch(url, init);
   if (res.status === 404) {
     throw new Error(`Resource "${res.url}" not found`);
   }
@@ -6502,9 +6502,9 @@ async function resourceToDataURL(resourceUrl, contentType, options) {
   }
   let dataURL;
   try {
-    const content = await fetchAsDataURL(resourceUrl, options.fetchRequestInit, ({ res: res2, result }) => {
+    const content = await fetchAsDataURL(resourceUrl, options.fetchRequestInit, ({ res, result }) => {
       if (!contentType) {
-        contentType = res2.headers.get("Content-Type") || "";
+        contentType = res.headers.get("Content-Type") || "";
       }
       return getContentFromDataUrl(result);
     });
@@ -6826,7 +6826,7 @@ async function fetchCSS(url) {
   if (cache2 != null) {
     return cache2;
   }
-  throw Error("fetch call was blocked by AC");
+  const res = await fetch(url);
   const cssText = await res.text();
   cache2 = { url, cssText };
   cssFetchCache[url] = cache2;
