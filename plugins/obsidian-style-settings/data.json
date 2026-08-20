@@ -21,5 +21,7 @@
   "minimal-style@@bold-modifier": 300,
   "minimal-style@@bold-color@@dark": "#FFFFFF",
   "minimal-style@@callouts-style": "callouts-default",
-  "minimal-style@@blockquote-border-thickness": 1
+  "minimal-style@@blockquote-border-thickness": 1,
+  "anuppuccin-theme-settings@@anp-custom-checkboxes": true,
+  "anuppuccin-theme-settings@@anp-speech-bubble": true
 }

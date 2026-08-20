@@ -43,5 +43,8 @@
   ],
   "accentColor": "",
   "showRibbon": false,
-  "showViewHeader": true
+  "showViewHeader": true,
+  "interfaceFontFamily": "Helvetica",
+  "textFontFamily": "",
+  "monospaceFontFamily": "FiraCode Nerd Font,JetBrainsMono Nerd Font,RobotoMono Nerd Font"
 }
