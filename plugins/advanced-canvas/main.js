@@ -5796,12 +5796,12 @@ var ColorPaletteCanvasExtension = class extends CanvasExtension {
   constructor() {
     super(...arguments);
     this.observer = null;
-    this.styleSheets = /* @__PURE__ */ new Map();
   }
   isEnabled() {
     return true;
   }
   init() {
+    this.styleSheets = /* @__PURE__ */ new Map();
     this.plugin.registerEvent(this.plugin.app.workspace.on(
       "window-open",
       (_win, _window) => this.updateCustomColorModStyleClasses()
