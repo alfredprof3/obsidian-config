@@ -15,14 +15,6 @@
       "key": "B"
     }
   ],
-  "remotely-save:start-sync": [
-    {
-      "modifiers": [
-        "Ctrl"
-      ],
-      "key": "S"
-    }
-  ],
   "editor:open-search-replace": [
     {
       "modifiers": [
