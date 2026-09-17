@@ -1,14 +1,13 @@
 [
-  "dataview",
-  "templater-obsidian",
-  "obsidian-tasks-plugin",
-  "obsidian-style-settings",
-  "obsidian-minimal-settings",
-  "keyshots",
   "advanced-canvas",
+  "calc-craft",
+  "dataview",
   "obsidian-hider",
+  "keyshots",
+  "obsidian-minimal-settings",
   "notebook-navigator",
-  "vscode-editor",
+  "obsidian-style-settings",
   "tag-navigator-v0.2.0",
-  "calc-craft"
+  "obsidian-tasks-plugin",
+  "templater-obsidian"
 ]
